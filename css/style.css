@@ -1,0 +1,459 @@
+/* all common css */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 23px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1208px;
+  margin: 0 auto;
+}
+.titleOne {
+  font-size: 60px;
+  font-weight: bold;
+  color: #333333;
+  line-height: 78px;
+}
+.titleTwo {
+  font-size: 50px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 72px;
+}
+.titleThree {
+  font-size: 44px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 56px;
+}
+.titleFour {
+  font-size: 16px;
+  font-weight: 500;
+  color: #5e3bee;
+  line-height: 26px;
+}
+.titleFive {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(18, 18, 18, 0.7);
+  line-height: 32px;
+}
+.descriptionBlack {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.text-center {
+  text-align: center;
+}
+.marginCenter {
+  margin: 0 auto;
+  padding-top: 15px;
+}
+/* all common css */
+
+/* menuPart  start */
+#menu {
+  background: #f9f9fc;
+}
+.menuPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 37px;
+  padding-bottom: 37px;
+  background: #f9f9fc;
+}
+.buttonPart a {
+  color: #ffffff;
+  background: #5e3bee;
+  padding: 8px 22px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.buttonPart i {
+  padding-left: 7px;
+}
+.navPart nav ul li a {
+  font-size: 14px;
+  color: #000000;
+}
+/* menuPart  end */
+
+/* banner part start */
+#banner {
+  background: #f9f9fc;
+}
+.bannerPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bannerPartLeft {
+  padding-top: 120px;
+  padding-bottom: 140px;
+}
+.bannerPartLeft h1 {
+  width: 480px;
+  padding-top: 30px;
+  padding-bottom: 62px;
+}
+.bannerPartLeft a i {
+  padding-right: 10px;
+}
+
+.firstButton {
+  margin-right: 23px;
+  padding: 23px 39px;
+  color: #ffffff;
+  background: #5e3bee;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border-radius: 50px;
+}
+.secendButton {
+  margin-right: 23px;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.bannerPartRight {
+}
+.bannerPartRight img {
+  padding-top: 16px;
+  padding-bottom: 44px;
+  width: 700px;
+  height: 686px;
+}
+/* banner part end */
+
+/* experiance part start */
+#experiance {
+  margin-top: 90px;
+  margin-bottom: 80px;
+}
+.experiancePart {
+  display: flex;
+  justify-content: space-between;
+}
+.experiancePartItem h5 {
+  font-weight: 600;
+  font-size: 48px;
+  color: #000000;
+  text-align: center;
+}
+.experiancePartItem p {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(18, 18, 18, 0.703);
+  text-align: center;
+}
+/* experiance part end */
+
+/* SERVICES part start */
+#services {
+  margin-bottom: 140px;
+}
+.servicesPart {
+  padding-top: 50px;
+}
+.servicesPart h5 {
+  padding-bottom: 15px;
+}
+.servicesPart > p {
+  width: 600px;
+  padding-bottom: 64px;
+}
+.servicesPartFlex {
+  display: flex;
+  justify-content: space-between;
+}
+.servicesPartItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 51px 40px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 39px 9px rgba(224, 224, 224, 0.75);
+  -webkit-box-shadow: 0px 0px 39px 9px rgba(224, 224, 224, 0.75);
+  -moz-box-shadow: 0px 0px 39px 9px rgba(224, 224, 224, 0.75);
+  transition: 0.5s;
+}
+.servicesPartItem:hover {
+  background: #5f3bee0c;
+}
+.servicesPartItem p {
+  width: 300px;
+  padding-top: 9px;
+}
+.servicesPartItem img {
+  margin-bottom: 35px;
+}
+
+/* SERVICES part end */
+
+/* graphic part start */
+#graphic {
+  width: 100%;
+  background: url(../assests/images/SECTION\ ABOUT.png);
+  margin-bottom: 125px;
+}
+.graphicPart {
+  padding-top: 157px;
+  padding-bottom: 115px;
+}
+.graphicPart h1 {
+  width: 482px;
+}
+.graphicPart p {
+  width: 580px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+.graphicPart i {
+  padding-right: 7px;
+  font-size: 14px;
+  font-weight: 500;
+}
+/* graphic part end */
+
+/* Sponser part start */
+#logoSponser {
+  margin-bottom: 115px;
+}
+.SponserPart {
+  display: flex;
+  justify-content: space-between;
+}
+/* Sponser part end */
+
+/* portfolio part start */
+#portfolio {
+  margin-bottom: 132px;
+}
+.portfolioInfoPart {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 51px;
+  padding-top: 58px;
+}
+.portfolioInfoPartRight p {
+  width: 520px;
+  padding-right: 30px;
+  padding-top: 18px;
+}
+.portfolioInfoPartLeft h4 {
+  padding-bottom: 10px;
+}
+.portfolioPartFlex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+.portfolioPartItem {
+  border-radius: 24px;
+  box-shadow: 0px 0px 39px 9px rgba(224, 224, 224, 0.75);
+  -webkit-box-shadow: 0px 0px 39px 9px rgba(224, 224, 224, 0.75);
+  -moz-box-shadow: 0px 0px 39px 9px rgba(224, 224, 224, 0.75);
+}
+.portfolioPartItem h5 {
+  padding-left: 47px;
+  padding-top: 33px;
+  padding-bottom: 8px;
+}
+.portfolioPartItem p {
+  padding-bottom: 46px;
+  padding-left: 47px;
+}
+/* portfolio part end */
+
+/* clint review part start */
+#review {
+  background: url(../assests/images/review.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.reviewPart {
+  text-align: center;
+}
+.reviewPart h4 {
+  padding-top: 147px;
+  padding-bottom: 12px;
+}
+.reviewPart h3 {
+  padding-bottom: 13px;
+}
+.reviewPart > p {
+  width: 550px;
+  margin: 0 auto;
+  padding-bottom: 157px;
+}
+.reviewPartItem > p {
+  width: 480px;
+}
+.reviewPartFlex {
+  display: flex;
+  justify-content: space-between;
+}
+.avaterImage {
+  border-radius: 50%;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 27px;
+}
+.flexOne {
+  display: flex;
+  align-items: center;
+}
+.reviewPartItem {
+  border-radius: 24px;
+  background: #fff;
+  border-radius: 24px;
+  padding-left: 42px;
+  padding-top: 42px;
+  padding-bottom: 44px;
+  padding-right: 44px;
+  box-shadow: 0px 0px 39px 9px rgba(224, 224, 224, 0.75);
+  -webkit-box-shadow: 0px 0px 39px 9px rgba(224, 224, 224, 0.75);
+  -moz-box-shadow: 0px 0px 39px 9px rgba(224, 224, 224, 0.75);
+}
+.descriptionBlack {
+  padding-top: 34px;
+}
+.reviewInfo h6 {
+  padding-left: 17px;
+}
+.reviewInfo p {
+  padding-left: 17px;
+}
+#clintReview {
+  position: relative;
+  top: -100px;
+}
+/* clint review part end */
+
+/* contact part start */
+.contactPart {
+  background: url(../assests/images/SECTION\ CTA.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 36px;
+  margin-bottom: 132px;
+}
+.contactPart a {
+  text-align: center;
+}
+.contactPart h2 {
+  width: 600px;
+  margin: 0 auto;
+  padding-bottom: 53px;
+}
+/* contact part end */
+
+/* footerPart part start */
+#footer {
+  width: 1400px;
+  margin: 0 auto;
+  background: #404040;
+  border-radius: 20px 20px 0 0;
+}
+.footerPart {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-bottom: 75px;
+}
+.footerPartLeft img{
+    padding-bottom: 24px;
+}
+.footerPartLeft p {
+  width: 370px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.footerPartRight p i {
+  padding-right: 20px;
+}
+.footerPartRight > i {
+  padding-right: 24px;
+  font-size: 24px;
+}
+.footerPart {
+  padding-top: 112px;
+}
+.footerPartBottom .menuPart {
+  background: #404040;
+  height: 140px;
+  width: 1020px;
+  border-top: 1px solid #ffffff57;
+}
+.footerPartBottom .menuPart nav ul {
+  margin-left: -20px;
+}
+.footerPartBottom .menuPart nav ul li a {
+  color: #fff;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.601);
+}
+.footerPartBottom
+  .menuPart; /* footerPart part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
