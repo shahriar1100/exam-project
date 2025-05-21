@@ -99,6 +99,7 @@ p {
   border-radius: 50px;
   font-size: 14px;
   font-weight: 500;
+  letter-spacing: 1px;
 }
 .buttonPart i {
   padding-left: 7px;
