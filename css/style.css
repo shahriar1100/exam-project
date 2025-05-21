@@ -92,10 +92,13 @@ p {
   padding-bottom: 37px;
   background: #f9f9fc;
 }
+.logoPart img{
+    padding-top: 15px;
+}
 .buttonPart a {
   color: #ffffff;
   background: #5e3bee;
-  padding: 12px 28px;
+  padding: 10px 25px;
   border-radius: 50px;
   font-size: 14px;
   font-weight: 500;
